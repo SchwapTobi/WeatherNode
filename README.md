@@ -1,11 +1,5 @@
 # WeatherNode- Automatisierte Wettermessung
 
-    Projekt der LVA Multimediasysteme im SS2019 @JKULinz
-    Team:
-    - Reisinger Philipp (k11802930)
-    - Schropp Sarah (k11771533)
-    - Schwap Tobias (k11773648)
-
 Automatisierte Erfassung der aktuellen Wetterlage für das Projekt [WeatherNet](https://github.com/SchwapTobi/WeatherNet)
 
 Als Wetterstation dient in unserem Prototyp ein Raspberry Pi Zero w mit folgendne Sensoren:
@@ -26,7 +20,7 @@ Das Ziel ist die Messung und das Logging der erhobenen Daten um den Prototyp fü
 eine Schritt für Schritt- Anleitung folgt im Wiki.
 
 ###  Links:
-
+- [Wiki](https://github.com/SchwapTobi/WeatherNode/wiki)
 - [Demo](https://projects.tobias-schwap.at/weatherNet)
 
   
