@@ -24,7 +24,7 @@ eine Schritt für Schritt- Anleitung folgt im Wiki.
 
 ###  Links:
 - [Wiki](https://github.com/SchwapTobi/WeatherNode/wiki)
-- [Demo](https://projects.tobias-schwap.at/weatherNet)
+- [Demo](http://projects.tobias-schwap.at/weatherNet)
 
   
 
