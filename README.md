@@ -2,6 +2,9 @@
 
 Automatisierte Erfassung der aktuellen Wetterlage für das Projekt [WeatherNet](https://github.com/SchwapTobi/WeatherNet)
 
+![alt text](https://github.com/SchwapTobi/WeatherNode/blob/master/case/v.1.2%20(latest)/Case.v.1.2.RENDER.png)
+
+
 Als Wetterstation dient in unserem Prototyp ein Raspberry Pi Zero w mit folgendne Sensoren:
 
 | Modul         | Funktion                                            | Doku                                                         |
