@@ -1,0 +1,17 @@
+{
+  "nodeID": "4040_TS",
+  "owner": "Tobias S",
+  "position": "Linz",
+  "sensors": [
+    "BMP180",
+    "DHT22",
+    "Photoresistor"
+  ],
+  "measuring": [
+    "Barometric Pressure",
+    "Temperature ",
+    "Altitude",
+    "Humidity",
+    "Luminance"
+  ]
+}
