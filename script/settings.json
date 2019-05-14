@@ -1,7 +1,16 @@
 {
   "nodeID": "4040_TS",
   "owner": "Tobias S",
-  "position": "Linz",
+   "radius": 1500,
+  "position": {
+    "id": "4020_2",
+    "latitude": 48.293282,
+    "longitude": 14.2818463,
+    "zipCode": 4040,
+    "name": "Linz",
+    "state": "Oberösterreich",
+    "country": "AT"
+  },
   "sensors": [
     "BMP180",
     "DHT22",

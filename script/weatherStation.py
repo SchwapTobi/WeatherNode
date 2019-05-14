@@ -25,7 +25,7 @@ entry = firebase.get('/stations/', ID)
 if entry is not None:
     print("#found station: " + json.dumps(entry))
 else:
-    result = firebase.patch('/stations/' + ID, weatherNode, {'print': 'pretty'})
+    result = firebase.patch('/stations/' + ID, weatherNode, {'print': 'pretty'}, {'X_FANCY_HEADER': 'VERY FANCY'})
     print("#push station: " + json.dumps(result))
 
 # create log
@@ -85,4 +85,5 @@ nodeLog["altitude"] = str(finalAltitude).replace("\n", "")
 nodeLog["brightness"] = str(finalBrightness).replace("\n", "")
 nodeLog["humidity"] = str(finalHumidity).replace("\n", "")
 
-result = firebase.patch('/logs/' + ID + '/' + str(int(timestamp)), nodeLog, {'print': 'pretty'}})
+result = firebase.patch('/logs/' + ID + '/' + str(int(timestamp)), nodeLog, {'print': 'pretty'},
+                        {'X_FANCY_HEADER': 'VERY FANCY'})
