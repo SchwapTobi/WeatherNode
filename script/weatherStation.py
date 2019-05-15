@@ -57,7 +57,7 @@ bmp180TEMP = str(bmp180Res[1])
 bmp180PRESSURE = str(bmp180Res[4])
 bmp180ALTITUDE = str(bmp180Res[7])
 print("bmp180TEMP: " + bmp180TEMP)
-print("bmp180PRESSURE: " + bmp180TEMP)
+print("bmp180PRESSURE: " + bmp180PRESSURE)
 print("bmp180ALTITUDE: " + bmp180ALTITUDE)
 
 # read data from photores

@@ -1,3 +1,6 @@
+    
+#!/usr/local/bin/python
+
 import RPi.GPIO as GPIO
 import time
 
@@ -6,6 +9,8 @@ __license__ = "GPL"
 __maintainer__ = "pimylifeup.com"
 
 GPIO.setmode(GPIO.BOARD)
+
+#define the pin that goes to the circuit
 pin_to_circuit = 11
 
 def rc_time (pin_to_circuit):
@@ -24,13 +29,20 @@ def rc_time (pin_to_circuit):
         count += 1
 
     return count
+
+#Catch when script is interupted, cleanup correctly
 try:
+
+# Main loop
     results = []
     for x in xrange(0, 3):
 	results.append(rc_time(pin_to_circuit))
+       # print(rc_time(pin_to_circuit))
+
     avg = 0
     for y in xrange(0, 3):
         avg = avg + results[y]
+    
     print(avg/10)
 
 except KeyboardInterrupt:
