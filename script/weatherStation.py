@@ -1,11 +1,7 @@
-import os
-
 from firebase import firebase
 from datetime import datetime
 import json
 import re
-import sys
-from subprocess import Popen
 
 # setup firebase connection
 fireKey = open("firebase.key", "r")
