@@ -4,8 +4,7 @@ Automatisierte Erfassung der aktuellen Wetterlage für das Projekt [WeatherNet](
 
 ![](https://github.com/SchwapTobi/WeatherNode/blob/master/case/case_final/WeatherNode.jpg)
 
-![](https://www.youtube.com/watch?v=mQ-7IHEHv-0&feature=youtu.be)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mQ-7IHEHv-0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Timelapse](https://img.youtube.com/vi/mQ-7IHEHv-0/0.jpg)](https://www.youtube.com/watch?v=mQ-7IHEHv-0&feature=youtu.be)
 
 Als Wetterstation dient in unserem Prototyp ein Raspberry Pi Zero w mit folgendne Sensoren:
 
